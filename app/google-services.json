@@ -1,0 +1,72 @@
+{
+  "project_info": {
+    "project_number": "142003412166",
+    "firebase_url": "https://dawati-3aa6a.firebaseio.com",
+    "project_id": "dawati-3aa6a",
+    "storage_bucket": "dawati-3aa6a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:142003412166:android:4c68a28bbcd70275438bc7",
+        "android_client_info": {
+          "package_name": "com.ke.dawaati"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "142003412166-3is8n7au33d8et6blp464bou3msslomu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ke.dawaati",
+            "certificate_hash": "04fe737315a6a2927a93c33e234c5a858cffbf8d"
+          }
+        },
+        {
+          "client_id": "142003412166-ehp1mnpdi3440u9sagpbs9idchg83of7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ke.dawaati",
+            "certificate_hash": "e1edad88e9a7cfad37905a30b39dd544944a6718"
+          }
+        },
+        {
+          "client_id": "142003412166-lfrs1753jujpkplbsqvemq01odnq8gch.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ke.dawaati",
+            "certificate_hash": "90f0a3f66b06964cf322645c1e7b7f39055d3ab8"
+          }
+        },
+        {
+          "client_id": "142003412166-vdad50bh4e03trl5drqhrqcnuguffmna.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ke.dawaati",
+            "certificate_hash": "47b4dab5feb5b2b179ac70f9e8e03ddd3b15b40e"
+          }
+        },
+        {
+          "client_id": "142003412166-0p7041bmlnv8l6s5spl0a5vhr0h3au5f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6BDs7BaFtXv2jhc_LsdBip7ThbjqWV18"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "142003412166-0p7041bmlnv8l6s5spl0a5vhr0h3au5f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

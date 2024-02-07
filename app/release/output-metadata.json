@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "com.ke.dawaati",
+  "variantName": "release",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 26,
+      "versionName": "2.0.4",
+      "outputFile": "app-release.apk/Dawati - Debug 2.0.4.apk/Dawati 2.0.4.apk"
+    }
+  ],
+  "elementType": "File"
+}

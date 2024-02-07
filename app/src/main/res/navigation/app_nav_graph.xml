@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/onBoardingFragment"
+    android:id="@+id/app_nav_graph"
+    tools:ignore="UnusedNavigation">
+
+    <fragment
+        android:id="@+id/onBoardingFragment"
+        android:name="com.ke.dawaati.uiux.authenticate.OnBoardingFragment"
+        android:label="OnBoardingFragment"
+        tools:layout="@layout/on_boarding_fragment" >
+        <action
+            android:id="@+id/toSignInFragment"
+            app:destination="@id/signInFragment"
+            app:enterAnim="@anim/slide_in_from_right"
+            app:exitAnim="@anim/slide_out_to_left"
+            app:popEnterAnim="@anim/slide_in_from_left"
+            app:popExitAnim="@anim/slide_out_to_right" />
+        <action
+            android:id="@+id/toSignUpFragment"
+            app:destination="@id/signUpFragment"
+            app:enterAnim="@anim/slide_in_from_right"
+            app:exitAnim="@anim/slide_out_to_left"
+            app:popEnterAnim="@anim/slide_in_from_left"
+            app:popExitAnim="@anim/slide_out_to_right" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/signInFragment"
+        android:name="com.ke.dawaati.uiux.authenticate.SignInFragment"
+        android:label="Sign In fragment"
+        tools:layout="@layout/sign_in_fragment" >
+        <action
+            android:id="@+id/toSignUpFragment"
+            app:destination="@id/signUpFragment"
+            app:enterAnim="@anim/slide_in_from_right"
+            app:exitAnim="@anim/slide_out_to_left"
+            app:popEnterAnim="@anim/slide_in_from_left"
+            app:popExitAnim="@anim/slide_out_to_right" />
+        <action
+            android:id="@+id/toHomeFragment"
+            app:destination="@id/homeFragment"
+            app:enterAnim="@anim/slide_in_from_right"
+            app:exitAnim="@anim/slide_out_to_left"
+            app:popEnterAnim="@anim/slide_in_from_left"
+            app:popExitAnim="@anim/slide_out_to_right" />
+        <action
+            android:id="@+id/toSignActivationFragment"
+            app:destination="@id/SignActivationFragment"
+            app:enterAnim="@anim/slide_in_from_right"
+            app:exitAnim="@anim/slide_out_to_left"
+            app:popEnterAnim="@anim/slide_in_from_left"
+            app:popExitAnim="@anim/slide_out_to_right" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/signUpFragment"
+        android:name="com.ke.dawaati.uiux.authenticate.SignUpFragment"
+        android:label="Sign Up fragment"
+        tools:layout="@layout/sign_up_fragment" >
+        <action
+            android:id="@+id/toSignActivationFragment"
+            app:destination="@id/SignActivationFragment"
+            app:enterAnim="@anim/slide_in_from_right"
+            app:exitAnim="@anim/slide_out_to_left"
+            app:popEnterAnim="@anim/slide_in_from_left"
+            app:popExitAnim="@anim/slide_out_to_right"
+            app:popUpTo="@id/signInFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/SignActivationFragment"
+        android:name="com.ke.dawaati.uiux.authenticate.activation.SignActivationFragment"
+        android:label="Sign Activation fragment"
+        tools:layout="@layout/sign_activation_fragment" >
+        <argument
+            android:name="userName"
+            app:argType="string"
+            app:nullable="true"/>
+        <argument
+            android:name="emailAddress"
+            app:argType="string"
+            app:nullable="true"/>
+        <argument
+            android:name="phoneNumber"
+            app:argType="string"
+            app:nullable="true" />
+        <argument
+            android:name="fromSignIn"
+            android:defaultValue="true"
+            app:argType="boolean" />
+        <action
+            android:id="@+id/toSignInFragment"
+            app:destination="@id/signInFragment"
+            app:enterAnim="@anim/slide_in_from_right"
+            app:exitAnim="@anim/slide_out_to_left"
+            app:popEnterAnim="@anim/slide_in_from_left"
+            app:popExitAnim="@anim/slide_out_to_right"
+            app:popUpTo="@id/onBoardingFragment"
+            app:popUpToInclusive="false" />
+        <action
+            android:id="@+id/toHomeFragment"
+            app:destination="@id/homeFragment"
+            app:enterAnim="@anim/slide_in_from_right"
+            app:exitAnim="@anim/slide_out_to_left"
+            app:popEnterAnim="@anim/slide_in_from_left"
+            app:popExitAnim="@anim/slide_out_to_right"
+            app:popUpTo="@id/signInFragment"
+            app:popUpToInclusive="false" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.ke.dawaati.uiux.validated.HomeFragment"
+        android:label="Home fragment"
+        tools:layout="@layout/home_fragment" >
+        <argument
+            android:name="hasBottomNav"
+            android:defaultValue="true"
+            app:argType="boolean" />
+        <action
+            android:id="@+id/toContentVideoDetailsFragment"
+            app:destination="@id/contentVideoDetailsExperimentalFragment"
+            app:enterAnim="@anim/slide_in_from_right"
+            app:exitAnim="@anim/slide_out_to_left"
+            app:popEnterAnim="@anim/slide_in_from_left"
+            app:popExitAnim="@anim/slide_out_to_right" />
+        <action
+            android:id="@+id/toSubjectContentFragment"
+            app:destination="@id/subjectContentFragment"
+            app:enterAnim="@anim/slide_in_from_right"
+            app:exitAnim="@anim/slide_out_to_left"
+            app:popEnterAnim="@anim/slide_in_from_left"
+            app:popExitAnim="@anim/slide_out_to_right" />
+        <action
+            android:id="@+id/toCareerFragment"
+            app:destination="@id/careerFragment"
+            app:enterAnim="@anim/slide_in_from_right"
+            app:exitAnim="@anim/slide_out_to_left"
+            app:popEnterAnim="@anim/slide_in_from_left"
+            app:popExitAnim="@anim/slide_out_to_right" />
+        <action
+            android:id="@+id/toSubscribeFragment"
+            app:destination="@id/subscribeFragment"
+            app:enterAnim="@anim/slide_in_from_right"
+            app:exitAnim="@anim/slide_out_to_left"
+            app:popEnterAnim="@anim/slide_in_from_left"
+            app:popExitAnim="@anim/slide_out_to_right" />
+        <action
+            android:id="@+id/toProfileFragment"
+            app:destination="@id/profileFragment"
+            app:enterAnim="@anim/slide_in_from_right"
+            app:exitAnim="@anim/slide_out_to_left"
+            app:popEnterAnim="@anim/slide_in_from_left"
+            app:popExitAnim="@anim/slide_out_to_right" />
+        <action
+            android:id="@+id/logout"
+            app:destination="@id/signInFragment"
+            app:popUpTo="@+id/signInFragment"
+            app:popUpToInclusive="false"
+            app:enterAnim="@anim/slide_out_to_left"
+            app:exitAnim="@anim/slide_in_from_right"
+            app:popEnterAnim="@anim/slide_out_to_right"
+            app:popExitAnim="@anim/slide_in_from_left" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.ke.dawaati.uiux.validated.profile.ProfileFragment"
+        android:label="Profile fragment"
+        tools:layout="@layout/fragment_profile" >
+        <argument
+            android:name="hasBottomNav"
+            android:defaultValue="true"
+            app:argType="boolean" />
+        <action
+            android:id="@+id/logout"
+            app:destination="@id/signInFragment"
+            app:popUpTo="@+id/homeFragment"
+            app:popUpToInclusive="true"
+            app:enterAnim="@anim/slide_in_from_right"
+            app:exitAnim="@anim/slide_out_to_left"
+            app:popEnterAnim="@anim/slide_in_from_left"
+            app:popExitAnim="@anim/slide_out_to_right" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/subscribeFragment"
+        android:name="com.ke.dawaati.uiux.validated.subscribe.SubscribeFragment"
+        android:label="Subscribe fragment"
+        tools:layout="@layout/subscribe_fragment" />
+
+    <fragment
+        android:id="@+id/careerFragment"
+        android:name="com.ke.dawaati.uiux.validated.career.CareerFragment"
+        android:label="Home fragment"
+        tools:layout="@layout/home_fragment" />
+
+    <fragment
+        android:id="@+id/subjectContentFragment"
+        android:name="com.ke.dawaati.uiux.validated.content.SubjectContentFragment"
+        android:label="Subject content fragment"
+        tools:layout="@layout/subject_content_fragment" >
+        <action
+            android:id="@+id/to_contentVideoDetailsFragment"
+            app:destination="@id/contentVideoDetailsExperimentalFragment"
+            app:enterAnim="@anim/slide_in_from_right"
+            app:exitAnim="@anim/slide_out_to_left"
+            app:popEnterAnim="@anim/slide_in_from_left"
+            app:popExitAnim="@anim/slide_out_to_right" />
+        <action
+            android:id="@+id/toContentEBooksFragment"
+            app:destination="@id/contentEBooksFragment"
+            app:enterAnim="@anim/slide_in_from_right"
+            app:exitAnim="@anim/slide_out_to_left"
+            app:popEnterAnim="@anim/slide_in_from_left"
+            app:popExitAnim="@anim/slide_out_to_right" />
+        <action
+            android:id="@+id/toEvaluationAttemptFragment"
+            app:destination="@id/evaluationAttemptFragment"
+            app:enterAnim="@anim/slide_in_from_right"
+            app:exitAnim="@anim/slide_out_to_left"
+            app:popEnterAnim="@anim/slide_in_from_left"
+            app:popExitAnim="@anim/slide_out_to_right" />
+        <action
+            android:id="@+id/toEvaluationsReportListFragment"
+            app:destination="@id/evaluationsReportListFragment"
+            app:enterAnim="@anim/slide_in_from_right"
+            app:exitAnim="@anim/slide_out_to_left"
+            app:popEnterAnim="@anim/slide_in_from_left"
+            app:popExitAnim="@anim/slide_out_to_right" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/contentVideoDetailsExperimentalFragment"
+        android:name="com.ke.dawaati.uiux.validated.content.videos.details.ContentVideoDetailsExperimentalFragment"
+        android:label="ContentVideoDetailsFragment"
+        tools:layout="@layout/subject_content_video_details_fragment" />
+
+    <fragment
+        android:id="@+id/contentEBooksFragment"
+        android:name="com.ke.dawaati.uiux.validated.content.ebooks.details.ContentEBookDetailsFragment"
+        android:label="Content EBook Details Fragment"
+        tools:layout="@layout/subject_content_ebooks_details_fragment" />
+
+    <fragment
+        android:id="@+id/evaluationAttemptFragment"
+        android:name="com.ke.dawaati.uiux.validated.content.evaluations.attempt.EvaluationAttemptFragment"
+        android:label="Evaluation Attempt Fragment"
+        tools:layout="@layout/evaluations_attempt_fragment" >
+        <argument
+            android:name="evaluationName"
+            android:defaultValue=""
+            app:argType="string" />
+        <action
+            android:id="@+id/toEvaluationResultFragment"
+            app:destination="@id/evaluationResultFragment"
+            app:enterAnim="@anim/slide_in_from_right"
+            app:exitAnim="@anim/slide_out_to_left"
+            app:popEnterAnim="@anim/slide_in_from_left"
+            app:popExitAnim="@anim/slide_out_to_right"
+            app:popUpTo="@+id/subjectContentFragment"
+            app:popUpToInclusive="false" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/evaluationResultFragment"
+        android:name="com.ke.dawaati.uiux.validated.content.evaluations.result.EvaluationResultFragment"
+        android:label="Evaluation Result Fragment"
+        tools:layout="@layout/evaluations_result_fragment" >
+        <argument
+            android:name="evaluationName"
+            android:defaultValue=""
+            app:argType="string" />
+        <argument
+            android:name="submitEvaluationExamResults"
+            app:argType="com.ke.dawaati.api.response.SubmitEvaluationExamResults[]" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/evaluationsReportListFragment"
+        android:name="com.ke.dawaati.uiux.validated.content.evaluations.reports.EvaluationsReportListFragment"
+        android:label="Evaluations Reports List Fragment"
+        tools:layout="@layout/evaluations_report_list_fragment" >
+        <action
+            android:id="@+id/toEvaluationsReportDetailsFragment"
+            app:destination="@id/evaluationsReportDetailsFragment"
+            app:enterAnim="@anim/slide_in_from_right"
+            app:exitAnim="@anim/slide_out_to_left"
+            app:popEnterAnim="@anim/slide_in_from_left"
+            app:popExitAnim="@anim/slide_out_to_right" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/evaluationsReportDetailsFragment"
+        android:name="com.ke.dawaati.uiux.validated.content.evaluations.reports.details.EvaluationsReportDetailsFragment"
+        android:label="Evaluations Reports Details Fragment"
+        tools:layout="@layout/evaluations_report_details_fragment" >
+        <argument
+            android:name="evaluationName"
+            android:defaultValue=""
+            app:argType="string" />
+        <argument
+            android:name="examID"
+            app:argType="string" />
+        <argument
+            android:name="responseID"
+            app:argType="string" />
+    </fragment>
+
+</navigation>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RoundCornerProgress">
+        <attr name="rcReverse" format="boolean" />
+        <attr name="rcProgress" format="float" />
+        <attr name="rcMax" format="float" />
+        <attr name="rcSecondaryProgress" format="float" />
+        <attr name="rcBackgroundPadding" format="dimension" />
+        <attr name="rcRadius" format="dimension" />
+        <attr name="rcProgressColor" format="color" />
+        <attr name="rcSecondaryProgressColor" format="color" />
+        <attr name="rcBackgroundColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="EmptyStateItem">
+        <attr name="EmptyTitle" format="string" />
+        <attr name="EmptySubTitle" format="string" />
+        <attr name="PrimaryButtonTitle" format="string" />
+        <attr name="SecondaryButtonTitle" format="string" />
+        <attr name="ImageVisible" format="boolean" />
+        <attr name="PrimaryButtonVisible" format="boolean" />
+        <attr name="SecondaryButtonVisible" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="LoadingStateItem">
+        <attr name="LoadingTitle" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="MaterialEditText">
+        <!-- The base color of the line and the texts. Default is black. -->
+        <attr name="BaseColor" format="color" />
+        <!-- The highlight color of the line, and the floating label if the highlightFloatingLabel is true. -->
+        <attr name="PrimaryColor" format="color" />
+        <!-- How the floating label should be shown. Default is none -->
+        <attr name="FloatingLabel">
+            <enum name="none" value="0" />
+            <enum name="normal" value="1" />
+            <enum name="highlight" value="2" />
+        </attr>
+        <!-- The color for when something is wrong.(e.g. exceeding max characters) -->
+        <attr name="ErrorColor" format="color" />
+        <!-- Min characters count limit. 0 means no limit. -->
+        <attr name="MinimumCharacters" format="integer" />
+        <!-- max Characters count limit. 0 means no limit. -->
+        <attr name="MaximumCharacters" format="integer" />
+        <!-- Whether to show the bottom ellipsis in singleLine mode -->
+        <attr name="SingleLineEllipsis" format="boolean" />
+        <!-- Reserved bottom text lines count, no matter if there is some helper/error text. -->
+        <attr name="MinimumBottomTextLines" format="integer" />
+        <!-- Helper text at the bottom -->
+        <attr name="HelperText" format="string" />
+        <!-- Helper text color -->
+        <attr name="HelperTextColor" format="color" />
+        <!-- Font of the paint used to draw accent texts -->
+        <attr name="AccentTypeface" format="string" />
+        <!-- Font used on view -->
+        <attr name="Typeface" format="string" />
+        <!-- Custom float label text -->
+        <attr name="FloatingLabelText" format="string" />
+        <!-- spacing between the main text and the floating label -->
+        <attr name="FloatingLabelPadding" format="dimension" />
+        <!-- Hide underline -->
+        <attr name="HideUnderline" format="boolean" />
+        <!-- Underline's color -->
+        <attr name="UnderlineColor" format="color" />
+        <!-- Auto validate -->
+        <attr name="AutoValidate" format="boolean" />
+        <!-- Left icon -->
+        <attr name="IconLeft" format="reference" />
+        <!-- Right icon -->
+        <attr name="IconRight" format="reference" />
+        <!-- Padding between icon(s) and the main area. 8dp by default. -->
+        <attr name="IconPadding" format="dimension" />
+        <!-- Clear button -->
+        <attr name="ClearButton" format="boolean" />
+        <!-- The floating label's text size. 12sp by default. -->
+        <attr name="FloatingLabelTextSize" format="dimension" />
+        <!-- The floating label's text color. -1 by default. -->
+        <attr name="FloatingLabelTextColor" format="color" />
+        <!-- The bottom texts' size. 12sp by default. -->
+        <attr name="BottomTextSize" format="dimension" />
+        <!-- Always show the floating label, instead of animating it in/out. False by default. -->
+        <attr name="FloatingLabelAlwaysShown" format="boolean" />
+        <!-- Always show the helper text, no matter if the edit text is focused. False by default. -->
+        <attr name="HelperTextAlwaysShown" format="boolean" />
+        <!-- Whether use animation to show/hide the floating label. True by default. -->
+        <attr name="FloatingLabelAnimating" format="boolean"/>
+        <!-- Text color -->
+        <attr name="TextColor" format="color" />
+        <!-- Hint Text Color -->
+        <attr name="TextColorHint" format="color" />
+        <!-- Auto validate on focus lost. False by default. -->
+        <attr name="ValidateOnFocusLost" format="boolean"/>
+        <!-- Whether check the characters count at the beginning it's shown. True by default. -->
+        <attr name="CheckCharactersCountAtBeginning" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="DotsIndicator">
+        <attr name="DotsColor" format="color" />
+        <attr name="DotsSize" format="dimension" />
+        <attr name="DotsWidthFactor" format="integer" />
+        <attr name="DotsSpacing" format="dimension" />
+        <attr name="DotsCornerRadius" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="PDFViewPager">
+        <attr name="assetFileName" format="string" /> <!-- Load PDF from Asset -->
+        <attr name="pdfUrl" format="string" /> <!-- Load PDF from remote URL -->
+        <attr name="scale" format="float" /> <!-- Set initial scale for PDF -->
+    </declare-styleable>
+
+    <declare-styleable name="LegacyPDFView">
+
+    </declare-styleable>
+</resources>

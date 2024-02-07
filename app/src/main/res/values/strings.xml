@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Dawati</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string-array translatable="false" name="array_gender">
+        <item translatable="false">Choose Gender</item>
+        <item translatable="false">Male</item>
+        <item translatable="false">Female</item>
+    </string-array>
+
+    <string-array translatable="false" name="array_level">
+        <item translatable="false">Choose Level</item>
+        <item translatable="false">Form 1</item>
+        <item translatable="false">Form 2</item>
+        <item translatable="false">Form 3</item>
+        <item translatable="false">Form 4</item>
+    </string-array>
+
+    <string name="subscribe_warning">This premium content is only available for active subscribers.\n\nPress <u>dismiss</u> to exit or <u>subscribe</u> to view the available subscription options</string>
+    <string name="banner_warning">Premium content is only available for active subscribers</string>
+
+    <string name="notification_title">You have a new notification</string>
+    <string name="app_notification_channel_id">app_channel</string>
+    <string name="default_notification_channel_id">My notification</string>
+    <string name="name">Name</string>
+    <string name="notification">Notification</string>
+    <string name="send">Send</string>
+    <string name="send_capital">SEND</string>
+
+    <string name="review_message">Please leave us a <u><b>positive rating &amp; review</b></u> on the <u><b>Play store</b></u>.</string>
+    <string name="share_message">Download our Dawati app from Google Play Store or visit www.dawati.co.ke and subscribe to learn online</string>
+    <string name="related_videos">Related videos</string>
+    <string name="content_description_show_related_videos">Show related videos</string>
+    <string name="image_description">Image description</string>
+</resources>

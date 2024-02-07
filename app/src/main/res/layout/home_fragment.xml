@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground">
+
+    <View
+        android:id="@+id/topView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#e2ea6f"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/bottomView" />
+
+    <View
+        android:id="@+id/bottomView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#db3549"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/topView" />
+
+    <ImageView
+        android:id="@+id/appLogo"
+        android:layout_width="120dp"
+        android:layout_height="56dp"
+        android:contentDescription="Image description"
+        android:layout_marginStart="12dp"
+        app:srcCompat="@drawable/logo_dawati"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/accentBG"
+        android:layout_width="180dp"
+        android:layout_height="200dp"
+        android:contentDescription="Image description"
+        android:layout_marginStart="24dp"
+        app:srcCompat="@drawable/ic_tubes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+        <TextView
+            android:id="@+id/toolbarTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textAppearance="?attr/textAppearanceHeadline6"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/primary_text"/>
+
+    </com.google.android.material.appbar.MaterialToolbar>
+
+    <ImageView
+        android:id="@+id/profileAvatar"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:contentDescription="Image description"
+        android:layout_marginStart="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/profileName"
+        app:layout_constraintBottom_toBottomOf="@+id/classLevelClick" />
+
+    <TextView
+        android:id="@+id/profileName"
+        style="@style/MainItemTextAppearance"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Takezo Kensei"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:layout_constraintBottom_toTopOf="@id/emailValue"
+        app:layout_constraintStart_toEndOf="@id/profileAvatar"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <TextView
+        android:id="@+id/emailValue"
+        style="@style/SubItemTextAppearance"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@id/profileAvatar"
+        app:layout_constraintTop_toBottomOf="@+id/profileName"
+        android:text="Premium account" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/classLevelClick"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="2dp"
+        tools:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/emailValue"
+        app:layout_constraintStart_toEndOf="@id/profileAvatar" >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/classLevel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_text"
+                android:textAppearance="?attr/textAppearanceHeadline6"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:paddingVertical="6dp"
+                android:paddingHorizontal="16dp"
+                android:includeFontPadding="false"
+                android:text="Form 1"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/classLevelSelect" />
+
+            <ImageView
+                android:id="@+id/classLevelSelect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="8dp"
+                app:tint="@color/primary_text"
+                app:srcCompat="@drawable/ic_class_level_select"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/classLevelClick"
+        app:layout_constraintBottom_toTopOf="@+id/subscribeBanner" >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="16dp" >
+
+            <!--Region unfinished videos-->
+
+            <TextView
+                android:id="@+id/continueWatchingTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="16dp"
+                android:text="Continue watching"
+                android:textAppearance="?attr/textAppearanceBody1"
+                android:textColor="@color/primary_text"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/continueWatchingList"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/continueWatchingTitle"
+                tools:itemCount="2"
+                tools:listitem="@layout/item_subject" />
+
+            <androidx.constraintlayout.widget.Group
+                android:id="@+id/continueWatchingGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                app:constraint_referenced_ids="continueWatchingTitle, continueWatchingList" />
+
+            <!--End Region unfinished videos-->
+
+            <!--Region Subjects-->
+
+            <View
+                android:id="@+id/subjectsView"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:background="@drawable/background_home"
+                app:layout_constraintEnd_toEndOf="@id/guidelineEnd"
+                app:layout_constraintStart_toStartOf="@id/guidelineStart"
+                app:layout_constraintTop_toBottomOf="@id/continueWatchingList"
+                app:layout_constraintBottom_toBottomOf="@+id/subjectsList"/>
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="16dp"
+                android:text="Subjects"
+                android:textAppearance="?attr/textAppearanceBody1"
+                android:textColor="@color/primary_text"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp"
+                android:layout_marginHorizontal="24dp"
+                app:layout_constraintEnd_toEndOf="@id/subjectsView"
+                app:layout_constraintStart_toStartOf="@id/subjectsView"
+                app:layout_constraintTop_toBottomOf="@id/continueWatchingList" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/subjectsList"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+                app:layout_constraintTop_toBottomOf="@id/title"
+                app:layout_constraintEnd_toEndOf="@id/subjectsView"
+                app:layout_constraintStart_toStartOf="@id/subjectsView"
+                app:spanCount="2"
+                tools:itemCount="2"
+                tools:listitem="@layout/item_subject" />
+
+            <!--End Region Subjects-->
+
+            <TextView
+                android:id="@+id/supportTitle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="false"
+                android:letterSpacing="0.03"
+                android:lineSpacingMultiplier="1.1"
+                android:text="Your feedback is very important to us"
+                android:textAppearance="?attr/textAppearanceBody1"
+                android:textColor="@color/colorWhite"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginTop="16dp"
+                app:layout_constraintEnd_toEndOf="@id/guidelineEnd"
+                app:layout_constraintTop_toBottomOf="@id/subjectsView"
+                app:layout_constraintStart_toStartOf="@id/guidelineStart" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/rating"
+                style="@style/SplashSignUpButtonAppearance"
+                android:layout_width="150dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:gravity="center"
+                android:text="Rate us"
+                android:textSize="15sp"
+                app:layout_constraintEnd_toStartOf="@id/ratingShare"
+                app:layout_constraintHorizontal_chainStyle="packed"
+                app:layout_constraintStart_toStartOf="@id/guidelineStart"
+                app:layout_constraintTop_toBottomOf="@+id/supportTitle" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/ratingShare"
+                style="@style/SplashSignUpButtonAppearance"
+                android:layout_width="150dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:text="Share Dawati"
+                android:textSize="15sp"
+                app:layout_constraintStart_toEndOf="@id/rating"
+                app:layout_constraintEnd_toEndOf="@id/guidelineEnd"
+                app:layout_constraintTop_toBottomOf="@+id/supportTitle" />
+
+            <androidx.constraintlayout.widget.Group
+                android:id="@+id/ratingGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:constraint_referenced_ids="supportTitle, rating, ratingShare" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guidelineStart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_begin="16dp" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guidelineEnd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_end="16dp" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+    <ImageView
+        android:id="@+id/subscribeBanner"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        app:srcCompat="@drawable/banner_gradient"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <TextView
+        android:id="@+id/subscribeBannerTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/banner_warning"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorWhite"
+        android:layout_gravity="center"
+        android:paddingVertical="8dp"
+        android:paddingHorizontal="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/subscribeBanner"
+        app:layout_constraintBottom_toBottomOf="@+id/subscribeBanner"
+        app:layout_constraintEnd_toStartOf="@+id/subscribeBannerAction" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/subscribeBannerAction"
+        style="@style/ColoredButtonAppearance"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginEnd="16dp"
+        android:paddingHorizontal="16dp"
+        android:backgroundTint="@color/colorWhite"
+        android:text="Subscribe"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_centerInParent="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/subscribeBanner"
+        app:layout_constraintBottom_toBottomOf="@+id/subscribeBanner"/>
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/subscribeGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:constraint_referenced_ids="subscribeBanner, subscribeBannerTitle, subscribeBannerAction"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

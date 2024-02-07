@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#D52757</color>
+    <color name="colorToolbar">#D52757</color>
+    <color name="colorPrimaryDark">#d42659</color>
+    <color name="colorAccent">#D52757</color>
+    <color name="colorBackground">#f2f3f4</color>
+    <color name="colorHeader">#e7e7e7</color>
+
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorBlack">#2b3e50</color>
+
+    <color name="subjectIconColor">#FF000000</color>
+
+    <color name="primary_text_light">#502b3e50</color>
+
+    <!--    Text    -->
+    <color name="primary_text">#2b3e50</color>
+    <color name="secondary_text">#757575</color>
+    <color name="hint_text">#85aeb0a5</color>
+
+    <color name="passengerOne">#7db341</color>
+    <color name="passengerTwo">#039be6</color>
+    <color name="passengerThree">#fd8f06</color>
+    <color name="passengerFour">#7066bf</color>
+    <color name="passengerFive">#e25d6f</color>
+
+    <color name="white_smoke">#D8D8D8</color>
+
+    <color name="divider">#50aeb0a5</color>
+    <color name="input_divider">#8c8d8f</color>
+
+    <color name="statusBarColor">#7066bf</color>
+
+    <color name="viewBackgroundColor">#40929497</color>
+
+    <!--Indicator colors-->
+    <color name="colorActive">#ffffff</color>
+    <color name="colorSemiActive">#85ffffff</color>
+    <color name="colorInactive">#50ffffff</color>
+
+    <!--    State colors    -->
+    <color name="colorPositive">#d52757</color>
+    <color name="colorNegative">#e25d6f</color>
+    <color name="colorIdle">#ffb74d</color>
+    <color name="colorTransparent">#00000000</color>
+
+    <color name="header_background">#e0e0e0</color>
+
+    <color name="text_black_disabled">#54000000</color>
+
+    <color name="white_50">#80FFFFFF</color>
+    <color name="white_20">#33FFFFFF</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="disabled_Button">#d5d5d5</color>
+
+</resources>

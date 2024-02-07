@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2d2d2d</color>
+    <color name="colorToolbar">#D52757</color>
+    <color name="colorPrimaryDark">#212121</color>
+    <color name="colorAccent">#D52757</color>
+    <color name="colorBackground">#121212</color>
+    <color name="colorHeader">#282828</color>
+
+    <!-- Might need validation from design team  -->
+    <color name="statusBarColor">#212121</color>
+
+    <color name="subjectIconColor">#D52757</color>
+
+    <!--    Text    -->
+    <color name="primary_text">#F7F7F7</color>
+    <color name="secondary_text">#929497</color>
+    <color name="hint_text">#aeb0a5</color>
+
+    <color name="header_background">#2d2d2d</color>
+</resources>

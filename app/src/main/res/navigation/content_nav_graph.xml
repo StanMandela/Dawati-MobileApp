@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/contentVideosFragment"
+    android:id="@+id/content_nav_graph"
+    tools:ignore="UnusedNavigation">
+
+    <fragment
+        android:id="@+id/contentVideosFragment"
+        android:name="com.ke.dawaati.uiux.validated.content.videos.ContentVideosFragment"
+        android:label="Content Videos Fragment"
+        tools:layout="@layout/subject_content_videos_fragment" />
+
+    <fragment
+        android:id="@+id/contentEBooksFragment"
+        android:name="com.ke.dawaati.uiux.validated.content.ebooks.ContentEBooksFragment"
+        android:label="Content EBooks Fragment"
+        tools:layout="@layout/subject_content_ebooks_fragment" />
+
+    <fragment
+        android:id="@+id/contentEvaluationFragment"
+        android:name="com.ke.dawaati.uiux.validated.content.evaluations.ContentEvaluationFragment"
+        android:label="Content Evaluation Fragment"
+        tools:layout="@layout/subject_content_evaluations_fragment" />
+
+</navigation>

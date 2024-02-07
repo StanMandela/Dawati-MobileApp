@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Projects/HeadsAfrica/DawatiPrj/Dawati/app/src/main/res/drawable/background_action_placeholder.xml" value="0.18" />
+        <entry key="..\:/Projects/HeadsAfrica/DawatiPrj/Dawati/app/src/main/res/drawable/background_bottom_sheet.xml" value="0.33425925925925926" />
+        <entry key="..\:/Projects/HeadsAfrica/DawatiPrj/Dawati/app/src/main/res/drawable/background_doodles.xml" value="0.1865" />
+        <entry key="..\:/Projects/HeadsAfrica/DawatiPrj/Dawati/app/src/main/res/drawable/background_drawer_selected_item.xml" value="0.18" />
+        <entry key="..\:/Projects/HeadsAfrica/DawatiPrj/Dawati/app/src/main/res/drawable/background_gradient_onboarding.xml" value="0.1865" />
+        <entry key="..\:/Projects/HeadsAfrica/DawatiPrj/Dawati/app/src/main/res/drawable/background_home.xml" value="0.191" />
+        <entry key="..\:/Projects/HeadsAfrica/DawatiPrj/Dawati/app/src/main/res/drawable/background_item_rounded.xml" value="0.18" />
+        <entry key="..\:/Projects/HeadsAfrica/DawatiPrj/Dawati/app/src/main/res/drawable/background_wave.xml" value="0.1865" />
+        <entry key="..\:/Projects/HeadsAfrica/DawatiPrj/Dawati/app/src/main/res/drawable/banner_gradient.xml" value="0.3885416666666667" />
+        <entry key="..\:/Projects/HeadsAfrica/DawatiPrj/Dawati/app/src/main/res/drawable/checkbox_rounded.xml" value="0.3885416666666667" />
+        <entry key="..\:/Projects/HeadsAfrica/DawatiPrj/Dawati/app/src/main/res/drawable/checkbox_rounded_checked.xml" value="0.3885416666666667" />
+        <entry key="..\:/Projects/HeadsAfrica/DawatiPrj/Dawati/app/src/main/res/drawable/ic_class_level_select.xml" value="0.33425925925925926" />
+        <entry key="..\:/Projects/HeadsAfrica/DawatiPrj/Dawati/app/src/main/res/drawable/ic_dawati_logo_dark.xml" value="0.1145" />
+        <entry key="..\:/Projects/HeadsAfrica/DawatiPrj/Dawati/app/src/main/res/drawable/ic_dawati_logo_light.xml" value="0.1145" />
+        <entry key="..\:/Projects/HeadsAfrica/DawatiPrj/Dawati/app/src/main/res/drawable/ic_dawati_logo_white.xml" value="0.143" />
+        <entry key="..\:/Projects/HeadsAfrica/DawatiPrj/Dawati/app/src/main/res/drawable/ic_down_arrow.xml" value="0.3885416666666667" />
+        <entry key="..\:/Projects/HeadsAfrica/DawatiPrj/Dawati/app/src/main/res/drawable/ic_drawer.xml" value="0.33425925925925926" />
+        <entry key="..\:/Projects/HeadsAfrica/DawatiPrj/Dawati/app/src/main/res/drawable/ic_drawer_home.xml" value="0.1865" />
+        <entry key="..\:/Projects/HeadsAfrica/DawatiPrj/Dawati/app/src/main/res/drawable/ic_launcher_background.xml" value="0.143" />
+        <entry key="..\:/Projects/HeadsAfrica/DawatiPrj/Dawati/app/src/main/res/drawable/ic_menu_down.xml" value="0.2895" />
+        <entry key="..\:/Projects/HeadsAfrica/DawatiPrj/Dawati/app/src/main/res/drawable/ic_player_background.xml" value="0.2895" />
+        <entry key="..\:/Projects/HeadsAfrica/DawatiPrj/Dawati/app/src/main/res/drawable/ic_player_full_screen.xml" value="0.2895" />
+        <entry key="..\:/Projects/HeadsAfrica/DawatiPrj/Dawati/app/src/main/res/drawable/ic_player_full_screen_exit.xml" value="0.2895" />
+        <entry key="..\:/Projects/HeadsAfrica/DawatiPrj/Dawati/app/src/main/res/drawable/ic_player_icon_fast_forward.xml" value="0.2895" />
+        <entry key="..\:/Projects/HeadsAfrica/DawatiPrj/Dawati/app/src/main/res/drawable/ic_player_icon_rewind.xml" value="0.2895" />
+        <entry key="..\:/Projects/HeadsAfrica/DawatiPrj/Dawati/app/src/main/res/drawable/ic_settings_rate.xml" value="0.3885416666666667" />
+        <entry key="..\:/Projects/HeadsAfrica/DawatiPrj/Dawati/app/src/main/res/drawable/ic_tubes.xml" value="0.191" />
+        <entry key="..\:/Projects/HeadsAfrica/DawatiPrj/Dawati/app/src/main/res/drawable/logo_dawati.xml" value="0.1865" />
+        <entry key="..\:/Projects/HeadsAfrica/DawatiPrj/Dawati/app/src/main/res/drawable/password_lock.xml" value="0.18" />
+        <entry key="..\:/Projects/HeadsAfrica/DawatiPrj/Dawati/app/src/main/res/drawable/splash_screen.xml" value="0.2" />
+        <entry key="..\:/Projects/HeadsAfrica/DawatiPrj/Dawati/app/src/main/res/layout/activity_main.xml" value="0.17592592592592593" />
+        <entry key="..\:/Projects/HeadsAfrica/DawatiPrj/Dawati/app/src/main/res/layout/bottom_sheet_related_videos.xml" value="0.2" />
+        <entry key="..\:/Projects/HeadsAfrica/DawatiPrj/Dawati/app/src/main/res/layout/careers_fragment.xml" value="0.3723958333333333" />
+        <entry key="..\:/Projects/HeadsAfrica/DawatiPrj/Dawati/app/src/main/res/layout/dialog_form_select.xml" value="0.2916666666666667" />
+        <entry key="..\:/Projects/HeadsAfrica/DawatiPrj/Dawati/app/src/main/res/layout/dialog_loader.xml" value="0.3723958333333333" />
+        <entry key="..\:/Projects/HeadsAfrica/DawatiPrj/Dawati/app/src/main/res/layout/dialog_success.xml" value="0.3055555555555556" />
+        <entry key="..\:/Projects/HeadsAfrica/DawatiPrj/Dawati/app/src/main/res/layout/evaluations_attempt_fragment.xml" value="0.3723958333333333" />
+        <entry key="..\:/Projects/HeadsAfrica/DawatiPrj/Dawati/app/src/main/res/layout/evaluations_exam_container.xml" value="0.3490740740740741" />
+        <entry key="..\:/Projects/HeadsAfrica/DawatiPrj/Dawati/app/src/main/res/layout/evaluations_report_details_fragment.xml" value="0.3723958333333333" />
+        <entry key="..\:/Projects/HeadsAfrica/DawatiPrj/Dawati/app/src/main/res/layout/evaluations_report_list_fragment.xml" value="0.29074074074074074" />
+        <entry key="..\:/Projects/HeadsAfrica/DawatiPrj/Dawati/app/src/main/res/layout/evaluations_result_fragment.xml" value="0.10925925925925926" />
+        <entry key="..\:/Projects/HeadsAfrica/DawatiPrj/Dawati/app/src/main/res/layout/exo_player_control_views.xml" value="0.176" />
+        <entry key="..\:/Projects/HeadsAfrica/DawatiPrj/Dawati/app/src/main/res/layout/home_fragment.xml" value="0.2916666666666667" />
+        <entry key="..\:/Projects/HeadsAfrica/DawatiPrj/Dawati/app/src/main/res/layout/home_nav_header_main.xml" value="0.3723958333333333" />
+        <entry key="..\:/Projects/HeadsAfrica/DawatiPrj/Dawati/app/src/main/res/layout/item_download_progress_background.xml" value="0.3723958333333333" />
+        <entry key="..\:/Projects/HeadsAfrica/DawatiPrj/Dawati/app/src/main/res/layout/item_ebook.xml" value="0.3723958333333333" />
+        <entry key="..\:/Projects/HeadsAfrica/DawatiPrj/Dawati/app/src/main/res/layout/item_form_select.xml" value="0.3723958333333333" />
+        <entry key="..\:/Projects/HeadsAfrica/DawatiPrj/Dawati/app/src/main/res/layout/item_loading_banner_state.xml" value="0.3723958333333333" />
+        <entry key="..\:/Projects/HeadsAfrica/DawatiPrj/Dawati/app/src/main/res/layout/item_picker.xml" value="0.3723958333333333" />
+        <entry key="..\:/Projects/HeadsAfrica/DawatiPrj/Dawati/app/src/main/res/layout/item_school_picker.xml" value="0.3723958333333333" />
+        <entry key="..\:/Projects/HeadsAfrica/DawatiPrj/Dawati/app/src/main/res/layout/item_subject.xml" value="0.2916666666666667" />
+        <entry key="..\:/Projects/HeadsAfrica/DawatiPrj/Dawati/app/src/main/res/layout/item_subscription_type.xml" value="0.35833333333333334" />
+        <entry key="..\:/Projects/HeadsAfrica/DawatiPrj/Dawati/app/src/main/res/layout/item_video_resume.xml" value="0.3723958333333333" />
+        <entry key="..\:/Projects/HeadsAfrica/DawatiPrj/Dawati/app/src/main/res/layout/item_video_sub_topics.xml" value="0.3723958333333333" />
+        <entry key="..\:/Projects/HeadsAfrica/DawatiPrj/Dawati/app/src/main/res/layout/item_video_topics.xml" value="0.3723958333333333" />
+        <entry key="..\:/Projects/HeadsAfrica/DawatiPrj/Dawati/app/src/main/res/layout/on_boarding_fragment.xml" value="0.3030583873957368" />
+        <entry key="..\:/Projects/HeadsAfrica/DawatiPrj/Dawati/app/src/main/res/layout/onboarding_fragment.xml" value="0.30277777777777776" />
+        <entry key="..\:/Projects/HeadsAfrica/DawatiPrj/Dawati/app/src/main/res/layout/related_videos_dialog_fragment.xml" value="0.3055555555555556" />
+        <entry key="..\:/Projects/HeadsAfrica/DawatiPrj/Dawati/app/src/main/res/layout/school_dialog_fragment.xml" value="0.3723958333333333" />
+        <entry key="..\:/Projects/HeadsAfrica/DawatiPrj/Dawati/app/src/main/res/layout/sign_activation_fragment.xml" value="0.3723958333333333" />
+        <entry key="..\:/Projects/HeadsAfrica/DawatiPrj/Dawati/app/src/main/res/layout/sign_forgot_dialog_fragment.xml" value="0.3723958333333333" />
+        <entry key="..\:/Projects/HeadsAfrica/DawatiPrj/Dawati/app/src/main/res/layout/sign_in_fragment.xml" value="0.2898148148148148" />
+        <entry key="..\:/Projects/HeadsAfrica/DawatiPrj/Dawati/app/src/main/res/layout/sign_up_fragment.xml" value="0.4" />
+        <entry key="..\:/Projects/HeadsAfrica/DawatiPrj/Dawati/app/src/main/res/layout/subject_content_ebooks_details_fragment.xml" value="0.264" />
+        <entry key="..\:/Projects/HeadsAfrica/DawatiPrj/Dawati/app/src/main/res/layout/subject_content_ebooks_fragment.xml" value="0.3723958333333333" />
+        <entry key="..\:/Projects/HeadsAfrica/DawatiPrj/Dawati/app/src/main/res/layout/subject_content_evaluations_fragment.xml" value="0.3723958333333333" />
+        <entry key="..\:/Projects/HeadsAfrica/DawatiPrj/Dawati/app/src/main/res/layout/subject_content_fragment.xml" value="0.2916666666666667" />
+        <entry key="..\:/Projects/HeadsAfrica/DawatiPrj/Dawati/app/src/main/res/layout/subject_content_video_details_experimental_fragment.xml" value="0.2" />
+        <entry key="..\:/Projects/HeadsAfrica/DawatiPrj/Dawati/app/src/main/res/layout/subject_content_video_details_fragment.xml" value="0.209375" />
+        <entry key="..\:/Projects/HeadsAfrica/DawatiPrj/Dawati/app/src/main/res/layout/subject_content_videos_class_fragment.xml" value="0.36666666666666664" />
+        <entry key="..\:/Projects/HeadsAfrica/DawatiPrj/Dawati/app/src/main/res/layout/subscribe_fragment.xml" value="0.3723958333333333" />
+        <entry key="..\:/Projects/HeadsAfrica/DawatiPrj/Dawati/app/src/main/res/menu/menu_navigation_drawer.xml" value="0.3723958333333333" />
+        <entry key="..\:/Projects/HeadsAfrica/DawatiPrj/Dawati/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/Projects/HeadsAfrica/DawatiPrj/Dawati/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.143" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
